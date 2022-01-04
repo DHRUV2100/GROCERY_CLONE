@@ -153,12 +153,10 @@ padding-bottom: 5px;
   margin-top: 12px;
   animation-name: CATEG_ANIM;
   animation-duration: 5s;
-
-
 }
 @keyframes CATEG_ANIM {
   0%{opacity: 0;margin-top:500px;}
-  100%{opacity: 1;margin-top: 12px; }
+  100%{opacity: 0;margin-top: 12px; }
 
 }
 .CATEGORY img{
