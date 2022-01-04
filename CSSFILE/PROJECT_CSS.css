@@ -1,0 +1,243 @@
+body{
+  margin: auto;
+}
+.navi
+{
+  background-color:limegreen;
+
+padding-top: 5px;
+padding-bottom: 5px;
+
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+
+
+}
+
+#LIST
+{
+  display: flex;
+
+  align-items: stretch;
+  list-style-type: none;
+  justify-content: space-around;
+
+}
+
+#LIST li a:hover
+{
+  background-color: yellow;
+}
+#LIST li a:active
+{
+  background-color: darkgreen;
+}
+#LIST li a:visited
+{
+  background-color: orange;
+}
+#LIST li a{
+  color: WHITE;
+}
+#LIST li a{
+  text-decoration: none;
+}
+.back
+{
+  height: 20%;
+}
+.form
+{
+  background-color: #323232;
+  width:330px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: fixed;
+  bottom: -330px;
+  right: 0px;
+  transition: .5s;
+}
+.form:hover
+{
+  bottom: 0;
+}
+.form-header img
+{
+  float:left;
+  width:50px;
+}
+.form-header p
+{
+  color:white;
+}
+.form-header
+{
+  background: black;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 5px;
+  margin-bottom: 2px;
+}
+.FORM-INFO form label{
+  color: white;
+  padding:5px;
+
+}
+#sub{
+  height: 200px;
+  width: 100px;
+}
+#submit{
+  margin-top: 10px;
+  color: white;
+  margin-bottom: 10px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  margin-left: 5px;
+  background-color:limegreen;
+  border:none;
+  border-radius: 3px;
+  text-align: right;
+}
+#submit:hover
+{
+  background-color: orange;
+  cursor: pointer;
+}
+#caption
+{
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  color: white;
+  font-family: "papyrus";
+  text-align: center;
+  animation-name: fade;
+  animation-duration: 2.5s;
+
+}
+@keyframes fade {
+  0%{opacity: 0;top:0;color: black;}
+  100%{opacity:1;top:15%;color: white;}
+
+}
+#caption:hover
+{
+  cursor: none;
+}
+
+#pop
+{
+  text-align: center;
+}
+
+.featured-wrapper
+{
+  position: relative;
+  display:flex;
+  justify-content: space-around;
+}
+
+.CATEGORY
+{
+  background-color: limegreen;
+  text-align: center;
+  position: relative;
+  max-width: 25%;
+  height: auto;
+
+  border-radius: 10px;
+  border: 1px solid limegreen;
+  margin-top: 12px;
+  animation-name: CATEG_ANIM;
+  animation-duration: 2s;
+
+
+}
+@keyframes CATEG_ANIM {
+  0%{opacity: 0;margin-top:500px;}
+  100%{opacity: 1;margin-top: 12px; }
+
+}
+.CATEGORY img{
+  position:relative;
+  height: 70%;
+  width: 100%;
+  margin-top: 5%;
+}
+.CATEGORY p
+{
+  color: white;
+  font-weight: bold;
+  font-size: 150%;
+  margin-top: 8%;
+  margin-bottom: -2%;
+}
+.button
+{
+  background-color: white;
+  position:relative
+  top:1%;
+  bottom:1%;
+  padding: 7%;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: limegreen;
+}
+
+.btn{
+  background-color: limegreen;
+  color: white;
+  border-radius: 6px;
+  border: 2px solid white;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: orange;
+
+}
+
+.social-links
+{
+  background-color: black;
+  display:inline-block;
+  max-width: 5%;
+  position:fixed;
+  right:0;
+  bottom:40%;
+  cursor: grabbing;
+
+
+
+}
+.social-links img
+{
+  max-width: 100%;
+}
+
+.fb
+{
+  background-color: black;
+
+}
+.fb:hover
+{
+  padding:20%;
+}
+.twitter:hover
+{
+ padding: 20%;
+
+}
+.insta:hover{
+  padding: 20%;
+}
+#oop
+{ padding-bottom: 10%;
+  height: inherit;
+  width: inherit;
+}
